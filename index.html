@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="portfolio, art, draw, handcraft">
+    <title>index.HTML</title>
+
+    <!--to add a favicon-->
+    <link rel="icon" type="image/jpg" href="images/Logo.jpg">
+
+        <!--Linking the css style sheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+
+
+
+<body>
+
+
+    <!--Semantic header-->
+<header>
+
+<nav>
+    <!--to create a logo div-->
+<div class="header_logo">
+<a href="index.html">
+    <img src="images/Logo.jpg" alt="Logo">
+</a>
+</div>
+<!--Semantic navigation menu-->
+
+    <ul id="navMenu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#backstage">Behind the curtain</a></li>
+        <li><a href="#collab">Collaboration</a></li>
+        <li><a href="#Contact">Contact</a></li>
+    </ul>
+</nav>
+
+
+<!--to add a Header text-->
+<h1>Puppet House</h1>
+<p>"where dreams are born and stories begin"</p>
+
+</header>
+
+<!--Semannic main contant-->
+<main>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Section1: About The company-->
+<section id="about">
+    <h2>About Our Journey</h2>
+    <article>
+<p>
+    Puppet House is Bahrain first specialized organization dedicated to children's theater.
+    operating as a dynamic online platform through Instagram and Youtube.
+    we identify ourselves as "traveling Theater", bringing our creative performances and workshops directly to children in schools,
+    festivals, and events across the Kingdom.
+    it is a creative sanctuary where children find their own space to explore and understand life through their unique perspective.
+</p>
+<p>
+    Established in 2019 by the renowned puppet creator Ahmed Jassim, 
+    our ultimate vision is to become a global ambassador for this timeless art.
+    we aim to expand globally , taking our shows to international stages and touching the hearts of children and parents worldwide.
+    Puppet House is more then just entertaiment, we strive to spread the culture of puppetry in our communities.
+    We foster imagination and take children on a complete creative journey, from the first sparkle on an idea
+    to the final production of a show.
+</p>
+</article>
+
+
+    <figure class="about_img">
+            <img src="images/dall2.jpg" alt="Dall" class="artical_img">
+            <img src="images/Dalls.jpg" alt="Dall" class="artical_img">
+            <img src="images/Fishes.jpg" alt="Dall" class="artical_img">
+    </figure>
+   
+    <section id="video">
+        <h3>Watch our story</h3>
+        <video controls width="80%">
+            <source src="video/AQOYxC4VhjiVnYtRtABnYSAyoyNLgsUmsR2doeNgjx6EOABZRrumFOH0tL7ynKTM2aWuNerFgI_vr8eEgN_w2ipH 2.webm" type="video/webm">
+            <source src="video/AQOYxC4VhjiVnYtRtABnYSAyoyNLgsUmsR2doeNgjx6EOABZRrumFOH0tL7ynKTM2aWuNerFgI_vr8eEgN_w2ipH.MP4" type="video/mp4">
+            Your browser does not support the video element
+        </video>
+    </section>
+    <section class="about_quiz">
+
+<!--to add an audio, quiz elements-->
+      <h3>Quiz Challange</h3>
+
+
+    <form id="quizForm">
+        <p><strong>what was Ahmed's first job?</strong></p>
+
+        <label>
+            <input type="radio" name="job" value="actor">Actor</label>
+
+         <label>
+            <input type="radio" name="job" value="teacher">Elementary Teacher</label>
+
+         <label>
+            <input type="radio" name="job" value="doctor">Doctor</label>
+
+        <button type="button" onclick="checkQuizAnswer()">Submit Answer</button>
+    </form>
+
+<p id="quizFeedback"></p>
+
+<p>Check your answer:</p>
+<audio controls id="audio">
+      <source src="oudio/AQOYxC4VhjiVnYtRtABnYSAyoyNLgsUmsR2doeNgjx6EOABZRrumFOH0tL7ynKTM2aWuNerFgI_vr8eEgN_w2ipH.ogg" type="audio/ogg">
+      <source src="oudio/AQOYxC4VhjiVnYtRtABnYSAyoyNLgsUmsR2doeNgjx6EOABZRrumFOH0tL7ynKTM2aWuNerFgI_vr8eEgN_w2ipH.wav" type="audio/wav">
+      Your browser does not support the audio element
+    </audio>
+  </section>
+
+<section>
+
+    <aside>
+        <figure>
+            <img src="images/founder.jpg" alt="Ahmed Jassim-Founder of Puppet House" id="founder_img">
+            <figcaption>Founder: Ahmed Jassim</figcaption>
+        </figure>
+
+        <article>
+            <h3>About the Founder</h3>
+            <details>
+               <summary>Read more about the founder</summary>
+               <p>
+                born in 1972 in the Kingdom of Bahrain, Ahmed Jassim's journey began in a classroom as an Arabic teacher.
+                His passion for storytelling led him from teaching letters to cteating magical worls.
+                 with over 20 ywars of experience, he has become a poineer in puppetary, blending vocal performence, acting, and master crafsmanship.
+               </p>
+               <p>
+                To perfect his art, Ahmed traveled to Tunisia, France, Qatar and many more cuntries, learning from the best puppet masters.
+                from his first show "win Al watan" in 2006 to his influential work on Bahrain TV's "Talawen", he has dedicated his life to this rare art.
+                For Ahmed, every face is a potentile puppet, and every puppet carry a massage of education and imagination to children everywhere.
+            </p>
+            </details>
+        </article>
+    </aside>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Section2: Behind the curtain-->
+<section id="backstage">
+    <h2>Behind the curtain</h2>
+
+    <!--to create an artical for each puppet-->
+    <article>
+        <figure>
+            <img src="images/progress1-1.JPG" alt="progress_dall">
+            <figcaption class="fig">The beginning</figcaption>
+            <progress value="0" max="100"></progress>
+        </figure>
+
+        <figure>
+            <img src="images/progress1-2.JPG" alt="progress_dall">
+            <figcaption class="fig">In progress</figcaption>
+            <progress value="50" max="100"></progress>
+        </figure>
+
+        <figure>
+            <img src="images/progress1-3.JPG" alt="progress_dall">
+            <figcaption class="fig">Final product</figcaption>
+            <progress value="100" max="100"></progress>
+        </figure>
+    </article>
+
+
+    <article>
+        <figure>
+            <img src="images/progress2-1.JPG" alt="progress_dall">
+             <figcaption class="fig">The beginning</figcaption>
+            <progress value="0" max="100"></progress>
+
+        </figure>
+
+        <figure>
+            <img src="images/progress2-2.JPG" alt="progress_dall">
+            <figcaption class="fig">In progress</figcaption>
+            <progress value="30" max="100"></progress>
+        </figure>
+
+        <figure>
+            <img src="images/progress2-3.JPG" alt="progress_dall">
+            <figcaption class="fig">Final product</figcaption>
+            <progress value="100" max="100"></progress>
+        </figure>
+    </article>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Section3: Collaboration-->
+<section id="collab">
+    <h2>Collaboration</h2>
+    <article>
+        <h3>Nurseries and Schools</h3>
+        <figure>
+            <img src="images/konooz_logo.jpg" alt="Logo of Konooz Nursery" class="collab_logo">
+            <img src="images/konooz.jpg" alt="Puppet House Collaboration with Konooz Nursery" class="event_img">
+            <figcaption class="collabFig">Puppet show at the Nursery 2025</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/sedratAlasafeer_logo.jpg" alt="Logo of Logo of Sedrat Alasafeer Nursery" class="collab_logo">
+            <img src="images/sedratAlasafeer_kids.jpg" alt="Puppet House Collaboration with Sedrat Alasafeer Nursery" class="event_img">
+            <figcaption class="collabFig">Puppet show at the Nursery 2026</figcaption>
+        </figure>
+    </article>
+
+
+    <article>
+        <h3>Official Entities</h3>
+        <figure>
+            <img src="images/BahrainTV_logo.jpg" alt="Logo of Bahrain TV" class="collab_logo">
+            <img src="images/Talawen.jpg" alt="Puppet House Collaboration with Bahrain TV" class="event_img">
+            <figcaption class="collabFig">'Talawen' TV program 2021</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/farmersMarket_logo.jpg" alt="Logo of Farmers' Market," class="collab_logo">
+            <img src="images/FarmersEvent.jpeg" alt="Puppet House Collaboration with Farmers' Market" class="event_img">
+            <figcaption class="collabFig">Giant puppet show highlighting the importance of agriculture 2024</figcaption>
+        </figure>
+    </article>
+
+
+    <article>
+        <h3>International collaborations</h3>
+        <figure>
+            <img src="images/sharjahDays_logo.jpg" alt="Logo of Sharjah Heritage Days" class="collab_logo">
+            <img src="images/sharjah.jpg" alt="Puppet House Collaboration with Sharjah Heritage Days" class="event_img">
+            <figcaption class="collabFig">Daily Pupeet shows at the festival 2026</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/Tunisia_logo.jpg" alt="Logo of Carthage Puppet Arts Days" class="collab_logo">
+            <img src="images/Tunisia.jpeg" alt="Puppet House Collaboration with Carthage Puppet Arts Days" class="event_img">
+            <figcaption class="collabFig">Daily Pupeet shows at the festival 2024</figcaption>
+        </figure>
+    </article>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Section4: Contact-->
+<section id="Contact">
+    <h2>Contact with us</h2>
+
+    <article>
+        <h3>Request a Custom Puppet or Workshop</h3>
+
+        <details>
+            <summary>Click here to fill request form</summary>
+
+            <form id="puppet_request" method="post">
+                <label for="client_name">Name / Entity name:</label>
+                <input type="text" id="client_name" name="client_name" required placeholder="Enter your name / Entity name">
+                <span id="nError" class="errorMassage"></span>
+
+                <fieldset>
+                    <legend>Entity type:</legend>
+                    <label><br>
+                        <input type="radio" name="Entity_type" value="Official" required>
+                        Official Entity
+                    </label>
+                    <label><br>
+                        <input type="radio" name="Entity_type" value="individual" required>
+                        Individual
+                    </label>
+                </fieldset>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required placeholder="example@mail.com"><br>
+                <span id="eError" class="errorMassage"></span>
+
+                <label for="Phone_number">Phone number</label><br>
+                <input type="tel" id="phone_number" name="phone_number"><br>
+
+                <label for="location">Event Location</label><br>
+                <input type="text" id="location" name="location" required placeholder="City, Area"><br>
+
+
+                <label for="Preferred_Date">Preferred Date</label><br>
+                <input type="date" id="Preferred_Date" name="Preferred_Date" required><br>
+
+                <label for="notes1">Additional request or note:</label><br>
+                <textarea name="notes1" id="notes1" placeholder="Describe the workshops details..."></textarea><br>
+
+                <button type="button" onclick="validateRequestForm()">Submit Request</button>
+                <p id="requestSuccess"></p>
+            </form>
+        </details>
+    
+
+    
+        <details>
+            <summary>Book for a show</summary>
+            <form action="" method="post">
+                <label for="show_choice">Choose a show or type a new one:</label><br>
+                <input list="show_options" id="show_choice" name="show_choice">
+                <span id="showError" class="errorMassage"></span>
+
+                <datalist id="show_options">
+                    <option value="Rashed way to school">
+                    <option value="Shapes play with my">
+                    <option value="The pearl">
+                </datalist><br>
+
+
+        <div>
+             <div class="count">
+                <label for="kids_count">Number of Children:</label>
+                <input type="number" id="kids_count" name="kids_count" value="0" required>
+             </div>
+
+             <div class="count">
+                <label for="price">Price:</label>
+                <input type="number" id="price" name="price" value="1.700" readonly required>
+             </div>
+
+             <div class="result">
+                <button type="button" onclick="totalPrice.value= (parseFloat(kids_count.value) * parseFloat(price.value)).toFixed(3)">
+                Show total price</button>
+                <output name="totalPrice" id="totalPrice">0.000</output>BHD<br>
+             </div>
+        </div>
+
+           
+            
+                <label for="show_date">Show Date:</label><br>
+                <input type="date" name="show_date" id="show_date" required><br>
+                <span id="dateError" class="errorMassage"></span>
+
+                <label for="notes2">Special requirement for the show</label><br>
+                <textarea name="notes2" id="notes2" placeholder="Tell us about the stage size or sound system..."></textarea><br>
+                
+                <button type="button" onclick="validateRBookForm()">Submit Request</button>
+                <p id="submitSuccess"></p>
+
+            </form>
+        </details>
+    </article>
+
+<!--to create a social media aside-->
+    <aside>
+        <h3>Contact info</h3>
+        <nav class="contact_aside">
+            <ul>
+                <h4>whatsapp</h4>
+                <li><a href="https://whatsapp.com/dl/">+973 3222 3892</a></li>
+                <h4>Instagram</h4>
+                <li><a href="https://www.instagram.com/puppet.h.bahrain/?hl=ar">@puppet.h.bahrain</a></li>
+                <h4>Youtube</h4>
+                <li><a href="https://www.youtube.com/@-puppethouse8788">puppet house - بيت الدمية</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+</section>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Semantic footer-->
+<footer>
+    
+<!--Semantic navigation menu-->
+<nav>
+    <ul id="footerMenu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#backstage">Behind the curtain</a></li>
+        <li><a href="#collab">Collaboration</a></li>
+        <li><a href="#Contact">Contact</a></li>
+    </ul>
+</nav>
+
+
+ <img src="images/Logo.jpg" alt="Logo">
+
+ <!--to add a Back buttom-->
+<a href="index.html" class="back_to_top">Back to Top</a>
+
+
+    <p class="quote">"All children deserve to be understood"</p>
+    <p class="copy">&copy;2026. All rights reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
